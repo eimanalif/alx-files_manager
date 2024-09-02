@@ -1,6 +1,6 @@
 /* eslint-disable import/no-named-as-default */
-import redisClient from '../utils/redis';
-import dbClient from '../utils/db';
+import redisClient from '../utils/redis.js';
+import dbClient from '../utils/db.js';
 
 export default class AppController {
   static getStatus(req, res) {
